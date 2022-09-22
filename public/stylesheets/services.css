@@ -1,0 +1,5 @@
+.services-list {
+	list-style-type: circle;
+	overflow: hidden;
+	padding-right: 5rem;
+}

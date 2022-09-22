@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/navbar.css')
+    link(rel='stylesheet', href='/stylesheets/page.css')
+    link(rel='stylesheet', href='/stylesheets/services.css')
+    link(rel='stylesheet', href='/stylesheets/contact.css')
+  body
+    ul.navbar-container
+        li.navbar-item
+            a.navbar-link(href='/') Home
+        li.navbar-item
+            a.navbar-link(href='/services') Services
+        li.navbar-item
+            a.navbar-link(href='/contact') Contact
+    div.page
+    div.page-title= title
+    block content
+    div.page-text.page-text__warning This website is only operational during formal working hours. (Monday to Friday, from 9AM to 17PM UTC+1)
